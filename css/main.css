@@ -1,0 +1,101 @@
+.cdiv
+{
+  text-align: left;
+  width: 98%;
+  margin-left: 1%;
+  font-family: 'Segoe UI';
+  color: white;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #323232;
+    text-align: center;
+    background-image: url("../res/background.bmp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+header
+{
+  position: fixed;
+  width: 100%;
+  margin-top: 49px;
+  backdrop-filter: blur(10px);
+  background-color: #111111ad;
+}
+.logo 
+{
+    
+    background-image: url("../res/sklogo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 0px;
+    background-size: 100px;
+}
+.blurBackground 
+{
+  backdrop-filter: blur(10px);
+  background-color: #111111ad;
+}
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100000000000000000000000;
+    background-color: #111111ad;
+  }
+
+  .customNavbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100000000000000000000000;
+  }
+
+.logo
+{
+    content: "<S>";
+}
+
+.btn {
+    background-color: #505050ad;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 11px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.btn:hover {opacity: 1}
+
+li a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Segoe UI';
+  transition: 0.3s;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}

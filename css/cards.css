@@ -1,0 +1,42 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+ }
+ * {
+    box-sizing: border-box;
+ }
+ .card {
+    color: white;
+    float: left;
+    background-color: #000000ab;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    align-items: center;
+    width: calc(25% - 20px);
+    padding: 0px;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 10px;
+    height: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+ }
+ .icon-container
+ {
+   width: 100%; 
+   height: 48px;
+   justify-content: center;
+   display: grid;
+ }
+ .card p {
+    font-size: 18px;
+ }
+ .cardContainer:after {
+    content: "";
+    display: table;
+    clear: both;
+ }
+ @media screen and (max-width: 600px) {
+    .card {
+       width: 100%;
+    }
+ }
